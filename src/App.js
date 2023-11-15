@@ -1,5 +1,5 @@
 // import logo from './logo.svg';
-// import './App.css';
+ import './App.css';
 import DataTable from "react-data-table-component";
 import {useState} from 'react';
 function App() {
@@ -26,6 +26,20 @@ function App() {
     { nom: "Vega", prenom: "Vincent", ville: "Los Angeles" },
     { nom: "Kiddo", prenom: "Beatrix", ville: "El Paso" },
   ]);
+    const age = 20
+  let situation = age>18?"majeur":"mineur";
+  
+
+  const PI = 3.14;
+let count = 9;
+
+if (count < 10) {
+  let message = 'Count est inférieur à 10';
+  console.log(message);
+}
+
+
+  
   return (
   //   <div className="App">
   //     <header className="App-header">
@@ -59,6 +73,9 @@ function App() {
     data={data}
     defaultSortFieldId={1}
 />
+{situation  }
+
+
 
 
 
