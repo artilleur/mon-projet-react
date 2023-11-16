@@ -2,6 +2,8 @@
  import './App.css';
 import DataTable from "react-data-table-component";
 import {useState} from 'react';
+import Count from './Count';
+import Essai from './Essai';
 function App() {
 
   
@@ -23,7 +25,7 @@ function App() {
     }
   ];
   const [data, setData] = useState([
-    { nom: "Booth", prenom: "Cliff", ville: "Hollywood" },
+    { nom: "denoyelle", prenom: "marc", ville: "rivery" },
     { nom: "Lebowski", prenom: "Jeff", ville: "Los Angeles" },
     { nom: "Vega", prenom: "Vincent", ville: "Los Angeles" },
     { nom: "Kiddo", prenom: "Beatrix", ville: "El Paso" },
@@ -39,6 +41,17 @@ if (count < 10) {
   let message = 'Count est inférieur à 10';
   console.log(message);
 }
+
+let name = 'denoyelle';
+let surname='marc';
+let ans = 30;
+
+
+
+console.log("Nom  " + name + "    prenom   " +surname+ " age " + ans + "."); 
+
+
+// console.log(`Je m'appelle ${name} et j'ai ${age} ans.`); 
 
 
 
@@ -64,9 +77,10 @@ if (count < 10) {
 />
 {situation  }
 
+<Count/>
+<Essai />
 
-
-
+  
 
   </div>
   )
