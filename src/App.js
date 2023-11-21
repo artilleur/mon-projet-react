@@ -33,6 +33,7 @@ function App() {
     const age = 20
   let situation = age>18?"majeur":"mineur";
   
+  
 
   const PI = 3.14;
 let count = 9;
@@ -79,8 +80,6 @@ console.log("Nom  " + name + "    prenom   " +surname+ " age " + ans + ".");
 
 <Count/>
 <Essai />
-
-  
 
   </div>
   )

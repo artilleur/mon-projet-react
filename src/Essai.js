@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 
 const ControlledInput = () => {
   const [name, setName] = useState('');
+  const [surName, setSurName] = useState('');
 
   const handleChange = (event) => {
     setName(event.target.value);
@@ -10,7 +11,9 @@ const ControlledInput = () => {
   return (
     <div>
       <input type="text" value={name} onChange={handleChange} />
-      <p>Bonjour, {name} !</p>
+      
+      
+      <p>Bonjour, {name}, {surName} !</p>
     </div>
   );
 };
