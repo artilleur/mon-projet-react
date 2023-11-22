@@ -4,6 +4,7 @@ import DataTable from "react-data-table-component";
 import {useState} from 'react';
 import Count from './Count';
 import Essai from './Essai';
+import EssaiCopy from './Essai copy';
 function App() {
 
   
@@ -80,6 +81,7 @@ console.log("Nom  " + name + "    prenom   " +surname+ " age " + ans + ".");
 
 <Count/>
 <Essai />
+<EssaiCopy />
 
   </div>
   )
