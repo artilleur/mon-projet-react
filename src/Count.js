@@ -6,7 +6,7 @@ const Count =()=> {
         setMoi((a)=>a+1)
     }
     return(<div>
-        <button onClick={incremente}>{moi}</button>
+        <button onClick={incremente}>{moi}...au compteur</button>
     </div>)
 
 }

@@ -32,7 +32,7 @@ function App() {
     { nom: "Kiddo", prenom: "Beatrix", ville: "El Paso" },
   ]);
     const age = 20
-  let situation = age>18?"majeur":"mineur";
+  let situation = 15>18?"majeur":"mineur";
   
   
 
@@ -77,9 +77,12 @@ console.log("Nom  " + name + "    prenom   " +surname+ " age " + ans + ".");
     data={data}
     defaultSortFieldId={1}
 />
+<br></br>
 {situation  }
-
+<br></br><br></br>
 <Count/>
+<br></br>
+
 <Essai />
 <EssaiCopy />
 

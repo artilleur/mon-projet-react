@@ -16,7 +16,7 @@ const ControlledInput = () => {
       <input type="text" value={nom} onChange={handleChange} />
       <input type="text" value={prenom} onChange={handleChange2} />
 
-      <p>Bonjour, {nom}, {prenom} !</p>
+      <p>Bonjour, {prenom}, {nom} !</p>
 
 
 
