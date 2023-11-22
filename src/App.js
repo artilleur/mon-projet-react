@@ -1,10 +1,11 @@
 // import logo from './logo.svg';
  import './App.css';
 import DataTable from "react-data-table-component";
-import {useState} from 'react';
+import {useState, useEffect} from 'react';
 import Count from './Count';
 import Essai from './Essai';
 import EssaiCopy from './Essai copy';
+import EssaiCopy2 from './Essai copy 2'
 function App() {
 
   
@@ -80,11 +81,12 @@ console.log("Nom  " + name + "    prenom   " +surname+ " age " + ans + ".");
 <br></br>
 {situation  }
 <br></br><br></br>
-<Count/>
+<Count />
 <br></br>
 
 <Essai />
 <EssaiCopy />
+<EssaiCopy2 />
 
   </div>
   )
